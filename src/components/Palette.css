@@ -1,0 +1,15 @@
+.color-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.color-section{
+    color:white;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 10px 0 10px;
+}
+
+.color-section:hover{
+    opacity: 0.6;
+}
