@@ -9,6 +9,7 @@ class App extends Component {
   id =3
 
 
+  
   state = {
     input: '',
     selected_color: 'black',
