@@ -7,16 +7,16 @@ import Color from './components/Palette'
 class App extends Component {
 
   id =3
-  
+
 
   state = {
     input: '',
     selected_color: 'black',
     color: ['#343a40', '#f03e3e', '#12b886', '#228ae6'],
     todos: [
-      { id: 0, text: ' 리액트 소개', checked: false, color: 'black' },
-      { id: 1, text: ' 리액트 소개', checked: true, color: 'black'  },
-      { id: 2, text: ' 리액트 소개', checked: false, color: 'red'  }
+      { id: 0, text: ' 리액트', checked: false, color: 'black' },
+      { id: 1, text: ' 스터디', checked: true, color: 'black'  },
+      { id: 2, text: ' 화이팅', checked: false, color: 'red'  }
     ]
   }
 
