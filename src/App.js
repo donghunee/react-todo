@@ -7,6 +7,7 @@ import Color from './components/Palette'
 class App extends Component {
 
   id =3
+  
 
   state = {
     input: '',
